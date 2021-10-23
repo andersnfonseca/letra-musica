@@ -1,0 +1,27 @@
+#button {
+    padding: 0;
+    margin-top: 10px;
+    border: solid 1px;
+    border-radius: 2px;
+}
+
+.container {
+    color: burlywood;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100px;
+    height: 200px;
+}
+body {
+    background-color: rgb(65, 64, 63);
+}
+.informacoes {
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blanchedalmond;
+
+}
+
+#traducao {
+    color: white;
+}
