@@ -7,11 +7,11 @@ const pegarLetraMusica = async() => {
 
         const dados = await fetch(URL);
         const letraDaMusica = await dados.json();
-        console.log(letraDaMusica.mus[0].translate[0].text);
+        // console.log(letraDaMusica.mus[0].translate[0].text);
 
         document.getElementById("cantor").innerText = letraDaMusica.art.name;
         document.getElementById("letra").innerText = letraDaMusica.mus[0].text;
-        document.getElementById("traducao").innerText = letraDaMusica.mus[0].translate[0].text;
+        
         
         limparCampos();
 }
@@ -19,4 +19,8 @@ const pegarLetraMusica = async() => {
 function limparCampos() {
     document.getElementById('artista').value='';
     document.getElementById('musica').value='';
+}
+
+function exibirTraducao() {
+    
 }
