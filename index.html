@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="js.js"></script>
     
@@ -11,20 +13,35 @@
 </head>
 <body>
     
-    <div class="container">
-        <h2>artista:</h2>
-        <input type="text" id="artista">
-        <h2>musica:</h2>
-        <input type="text" id="musica">
-        <input id="button" onclick="pegarLetraMusica();" type="button" value="Buscar Letra">
+    <div class="input-container">
+        <div class="input-artista">
+            <h2>Artista:</h2>
+            <input type="text" id="artista">
+        </div>
+        <div class="input-musica">
+            <h2>Musica:</h2>
+            <input type="text" id="musica">
+        </div>
+            <div class="btn-input">
+                <input id="button" onclick="pegarLetraMusica();" type="button" value="Buscar Letra">
+            </div>
+        
     </div>
    
 
-    <class class="informacoes">
-        <h2 id="cantor"></h2>
-        <h2 id="letra"></h2>
-        <h2 id="traducao"></h2>
-    </class>
+   <div class="container-letras">
 
+       <!-- <div class="artista-musica">
+            <h2 id="cantor"></h2>
+       </div> -->
+
+        <div class="letra-musica">
+            <h2 id="letra"></h2>
+        </div>
+
+        <div class="traducao-musica">
+            <h2 id="traducao"></h2>
+        </div>
+   </div>
 </body>
 </html>

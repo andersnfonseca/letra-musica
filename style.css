@@ -1,27 +1,47 @@
-#button {
+* {
     padding: 0;
-    margin-top: 10px;
-    border: solid 1px;
-    border-radius: 2px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
 }
 
-.container {
-    color: burlywood;
-    font-size: 14px;
-    font-family: 'Courier New', Courier, monospace;
-    width: 100px;
-    height: 200px;
-}
 body {
-    background-color: rgb(65, 64, 63);
-}
-.informacoes {
-    font-size: 14px;
-    font-family: 'Courier New', Courier, monospace;
-    color: blanchedalmond;
-
+    background-color: rgba(2, 72, 94, 0.699);
 }
 
-#traducao {
-    color: white;
+.input-musica {
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+
+.btn-input {
+    margin-top: 10px;
+}
+
+.input-container {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.container-letras {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    padding: 2.5em;
+}
+
+.letra-musica {
+    padding: 1em;
+}
+
+.traducao-musica {
+    padding: 1em;
 }

@@ -15,7 +15,7 @@ const pegarLetraMusica = async() => {
         const letraDaMusica = await dados.json();
         console.log(letraDaMusica);
 
-        document.getElementById("cantor").innerText = letraDaMusica.art.name;
+        // document.getElementById("cantor").innerText = letraDaMusica.art.name;
         document.getElementById("letra").innerText = letraDaMusica.mus[0].text;
         
         document.getElementById("traducao").innerText = '';
@@ -36,5 +36,3 @@ function limparCampos() {
     document.getElementById('artista').value='';
     document.getElementById('musica').value='';
 }
-
-
