@@ -13,7 +13,7 @@ const pegarLetraMusica = async() => {
 
         const dados = await fetch(URL);
         const letraDaMusica = await dados.json();
-        console.log(letraDaMusica);
+        // console.log(letraDaMusica);
 
         // document.getElementById("cantor").innerText = letraDaMusica.art.name;
         document.getElementById("letra").innerText = letraDaMusica.mus[0].text;
